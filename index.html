@@ -16,6 +16,10 @@ helper: ["Laura Fortunato", "Pip Willcox"]     # boxed, comma-separated list of 
 contact: ["iain.emsley@oerc.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:  "37033429986"         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+day1_am: "Data organization in spreadsheets and OpenRefine"
+day1_pm: "Introduction to Python"
+day2_am: "Data analysis and visualization in Python"
+day2_pm: "SQL for data management"
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -56,22 +60,17 @@ eventbrite:  "37033429986"         # optional: alphanumeric key for Eventbrite r
   the pitch.
 -->
 <p>
-  <a href="{{site.dc_site}}">Data Carpentry</a>'s mission is to
-  help researchers get more research done in less time and with less
-  pain by teaching them basic skills for research computing. This
-  hands-on workshop will cover basic concepts and tools, including
-  program design, version control, data management, and task
-  automation.  Participants will be encouraged to help one another and
-  to apply what they have learned to their own research problems.
+<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
+who has data they want to analyze, and no prior computational experience is required. 
+This hands-on workshop teaches basic concepts, skills and tools for working more 
+effectively with data. 
 </p>
-<p align="center">
-  <em>
-    For more information on what we teach and why, please see our
-    paper
-    "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best
-    Practices for Scientific Computing</a>".
-  </em>
+<p>
+We will cover {{page.day1_am}}, {{page.day1_pm}}, {{page.day2_am}} and {{page.day2_pm}}.
+
+Participants should bring their laptops and plan to participate actively. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
 </p>
+
 <p>
 This workshop is run by
 the <a href="https://rroxford.github.io/">Reproducible Research
@@ -133,8 +132,8 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
   etc.) that they have administrative privileges on. They should have
   a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  Data Carpentry's
+  <a href="http://www.datacarpentry.org/code-of-conduct/">Code of Conduct</a>.
 </p>
 
 <!--
@@ -203,31 +202,23 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
 <p><a href="https://www.surveymonkey.com/r/dcpreworkshopassessment">Pre-workshop Survey</a></p>
 <p><a href="https://www.surveymonkey.com/r/dcpostworkshopassessment">Post-workshop Survey</a></p>
 
-<!--<div class="row">
+<div class="row">
   <div class="col-md-6">
+
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/shell-novice/">Automating tasks with the Unix shell</a></td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/git-novice/">Version Control with Git</a></td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>Morning</td>  <td>{{page.day1_am}}</td> </tr>
+       <tr> <td>Afternoon</td>  <td>{{page.day1_pm}}</td> </tr>
     </table>
-  </div>
-  <div class="col-md-6">
+ 
+ 
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a></td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>R for Reproducible Scientific Analysis</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>Morning</td>  <td>{{page.day2_am}}</td> </tr>
+      <tr> <td>Afternoon</td>  <td>{{page.day2_pm}}</td> </tr>
     </table>
-  </div>
-</div> -->
-
+ </div>
+</div>
 <!--
   ETHERPAD
 
@@ -306,7 +297,7 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
       <li><a href="{{site.swc_pages}}/r-novice-gapminder/reference/">Reference...</a></li>
     </ul>
   </div>
-  <!--
+ 
   <div class="col-md-6">
     <h3 id="syllabus-r">Programming in R</h3>
     <ul>
@@ -319,6 +310,19 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
     </ul>
   </div>
   -->
+  <!--<div class="col-md-6">
+    <h3>Programming in Python</h3>
+    <ul>
+      <li>Using libraries</li>
+      <li>Working with arrays</li>
+      <li>Reading and plotting data</li>
+      <li>Creating and using functions</li>
+      <li>Loops and conditionals</li>
+      <li>Defensive programming</li>
+      <li>Using Python from the command line</li>
+      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
+    </ul>
+  </div>-->
   <!--
   <div class="col-md-6">
     <h3 id="syllabus-matlab">Programming in MATLAB</h3>
@@ -332,9 +336,9 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
      </ul>
    </div>
    -->
-<!-- </div>
+<!--</div>-->
 
-<div class="row">
+<!--<div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-git">Version Control with Git</h3>
     <ul>
@@ -348,8 +352,8 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
       <li>Where to host work, and why</li>
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
-  </div>
-<!--  <div class="col-md-6">
+  </div> -->
+<!--<div class="col-md-6">
     <h3 id="syllabus-sql">Managing Data with SQL</h3>
     <ul>
       <li>Reading and sorting data</li>
@@ -362,8 +366,8 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
       <li>Programming with databases</li>
       <li><a href="{{site.swc_pages}}/sql-novice-survey/reference/">Reference...</a></li>
     </ul>
-  </div> -->
-<!--</div> -->
+  </div>
+</div> -->
 
 <hr/>
 
@@ -382,9 +386,11 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a Software Carpentry workshop, you will need
-  access to the software described below. In addition, you will
-  need an up-to-date web browser.
+To participate in a Data Carpentry workshop, you will need working copies of the 
+described software. Please make sure to install everything (or at least to download 
+the installers) before the start of your workshop. Participants should bring and use 
+their own laptops to insure the proper setup of tools for an efficient workflow 
+once you leave the workshop.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -466,21 +472,7 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
         <code>/Applications/Utilities</code>).
         See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
         for an example on how to open the Terminal.
-        You may want to keep
-        Terminal in your dock for this workshop.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-linux">Linux</h4>
-      <p>
-        The default shell is usually Bash, but if your
-        machine is set up differently you can run it by opening a
-        terminal and typing <code>bash</code>.  There is no need to
-        install anything.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'shell' section. -->
+
 
 <div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/-->
@@ -605,7 +597,6 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
            the workshop will teach Python using something other than
            the IPython notebook.
            Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
-    <!--
   <h3>Python</h3>
 
   <p>
@@ -623,7 +614,7 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
       (e.g., 3.4 is fine).
     </p>
 
-    <p>
+    <!--<p>
       We will teach Python using the IPython notebook, a programming environment
       that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
@@ -631,7 +622,7 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
       <a href="http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility">supported</a>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
-    </p>
+    </p>-->
 
   <div class="row">
     <div class="col-md-4">
@@ -681,18 +672,17 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
       </ol>
     </div>
   </div>
-<!--
   <p>
   Once you are done installing the software listed above,
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
--->
+
 </div> <!-- End of 'Python' section. -->
 
 
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
+<!--<div id="r">  Start of 'R' section. -->
+<!--  <h3>R</h3>
 
   <p>
     <a href="http://www.r-project.org">R</a> is a programming language
@@ -740,10 +730,10 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
       </p>
     </div>
   </div>
-</div> <!-- End of 'R' section. -->
+</div> --> <!-- End of 'R' section. -->
 
 <div id="sql"> <!-- Start of 'SQLite' section. -->
-<!--  <h3>SQLite</h3>
+ <h3>SQLite</h3>
 
   <p>
     SQL is a specialized programming language used with databases.  We
