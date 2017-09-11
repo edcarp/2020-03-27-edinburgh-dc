@@ -397,203 +397,83 @@ once you leave the workshop.
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
-<div id="shell"> <!-- Start of 'shell' section. -->
-  <h3>The Bash Shell</h3>
+<div id="editor"> <!-- Start of 'spreadsheet' section. -->
+  <h3>Spreadsheet</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    To work with with spreadsheets, we can use Microsoft Excel, OpenOffice.org, or other programs.
+    Commands may differ a bit between programs, but general ideas for thinking about spreadsheets are the same.
+    For this lesson, <strong>if you don’t have a spreadsheet program already</strong>, you can use LibreOffice. It’s a free, open source spreadsheet program.
   </p>
 
   <div class="row">
     <div class="col-md-4">
-      <h4 id="shell-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-      <ol>
-        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps bellow:
-          <ol>
-            <!-- Git 2.8.2 Setup -->
-            <!-- Information -->
-            <li>Click on "Next".</li>
-            <!-- Select Components -->
-            <li>Click on "Next".</li>
-            <!-- Adjusting your PATH environment -->
-            <li>
-              <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-              </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
-            </li>
-            <!-- Choosing the SSH executable -->
-            <li>Click on "Next".</li>
-            <!-- Configuring the line ending conversions -->
-            <li>
-              <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-              </strong>
-            </li>
-            <!-- Configuring the terminal emulator to use with Git Bash -->
-            <li>
-              <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
-              </strong>
-            </li>
-            <!-- Configuring experimental performance tweaks -->
-            <li>Click on "Install".</li>
-            <!-- Installing -->
-            <!-- Completing the Git Setup Wizard -->
-            <li>Click on "Finish".</li>
-          </ol>
-        </li>
-        <li>
-          If your "HOME" environment variable is not set (or you don't know what this is):
-          <ol>
-            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
-            <li>
-              Type the following line into the command prompt window exactly as shown:
-              <p><code>setx HOME "%USERPROFILE%"</code></p>
-            </li>
-            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
-          </ol>
-        </li>
-      </ol>
-      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-macosx">Mac OS X</h4>
+      <h4 id="spreadsheet-windows">Windows</h4>
       <p>
-        The default shell in all versions of Mac OS X is Bash, so no
-        need to install anything.  You access Bash from the Terminal
-        (found in
-        <code>/Applications/Utilities</code>).
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open the Terminal.
-         </div>
-  </div>
-</div> <!-- End of 'Shell' section. -->
-
-<div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
-   is given at https://help.github.com/articles/supported-browsers/-->
-<h3>Git</h3>
-<p>
-Git is a version control system that lets you track who made changes
-to what when and has options for easily updating a shared or public
-version of your code
-on <a href="https://github.com/">github.com</a>. You will need a
-<a href="https://help.github.com/articles/supported-browsers/">supported</a>
-web browser (current versions of Chrome, Firefox or Safari,
-or Internet Explorer version 9 or above).
-</p>
-<p>
-You will need an account at <a href="https://github.com/">github.com</a>
-for parts of the Git lesson. Basic GitHub accounts are free. We encourage
-you to create a GitHub account if you don't have one already.
-Please consider what personal information you'd like to reveal. For
-example, you may want to review these
-<a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
-for keeping your email address private</a> provided at GitHub.
-</p>
-
-<div class="row">
-<div class="col-md-4">
-<h4 id="git-windows">Windows</h4>
-<p>
-Git should be installed on your computer as part of your Bash
-install (described above).
-</p>
-</div>
-    <div class="col-md-4">
-      <h4 id="git-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
-      <p>
-        <strong>For OS X 10.9 and higher</strong>, install Git for Mac
-        by downloading and running the most recent "mavericks" installer from
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
-        After installing Git, there will not be anything in your <code>/Applications</code> folder,
-        as Git is a command line program.
-        <strong>For older versions of OS X (10.5-10.8)</strong> use the
-        most recent available installer labelled "snow-leopard"
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
+        <strong>Only if you don't have MS Excel installed</strong>. Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/download/">download</a> page. Your download should begin automatically. You will go to a page that asks about a donation, but you don’t need to make one. 
       </p>
+
     </div>
     <div class="col-md-4">
-      <h4 id="git-linux">Linux</h4>
+      <h4 id="spreadsheet-mac">Mac OS X</h4>
       <p>
-        If Git is not already available on your machine you can try to
-        install it via your distro's package manager. For Debian/Ubuntu run
-        <code>sudo apt-get install git</code> and for Fedora run
-        <code>sudo yum install git</code>.
+        <strong>Only if you don't have MS Excel installed</strong>. Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/download/">download</a> page. Your download should begin automatically. You will go to a page that asks about a donation, but you don’t need to make one. 
+      </p>
+
+    </div>
+    <div class="col-md-4">
+      <h4 id="spreadsheet-linux">Linux</h4>
+      <p>
+        Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/download/">download</a> page. The version for Linux should automatically be selected.
+        Click Download Version 5.3.X. You will go to a page that asks about a donation, but you don’t need to make one. Your download should begin automatically.
       </p>
     </div>
   </div>
-</div> <!-- End of 'Git' section. -->
+</div> <!-- End of 'spreadsheet' section. -->
 
-<div id="editor"> <!-- Start of 'editor' section. -->
-  <h3>Text Editor</h3>
+<div id="openrefine"> <!-- Start of 'openrefine' section. -->
+  <h3>OpenRefine</h3>
 
-  <p>
-    When you're writing code, it's nice to have a text editor that is
-    optimized for writing code, with features like automatic
-    color-coding of key words.  The default text editor on Mac OS X and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive.  if you accidentally find yourself stuck in it, try
-    typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
-  </p>
+  <p>For this lesson you will need <strong>OpenRefine</strong> (formerly Google Refine) and a web browser.</p>
+  <p>Note: this is a program that runs on your machine (not in the cloud). It is accessed via your browser, but no web connection is needed.</p>
 
   <div class="row">
     <div class="col-md-4">
-      <h4 id="editor-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">Software Carpentry Windows installer</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        Please ask your instructor to help you do this.
-      </p>
+      <h4 id="openrefine-windows">Windows</h4>
+      <ul>
+        <li>OpenRefine uses the Java Runtime Enviroment. If you don't already have it installed, install it from <a href="https://java.com/en/download/">here</a>.
+        <li>Download the OpenRefine 2.7 Windows Kit from <a href="http://openrefine.org/download.html">http://openrefine.org</a></li>
+        <li>Unzip the downloaded file into a directory by right-clicking and
+        selecting “Extract…”. Name that directory something like 'OpenRefine'. <strong>Remember where you extracted it</strong></li>
+        <li>Go to your newly created OpenRefine directory using File Explorer.</li>
+        <li>Double click "openrefine" (the icon is a blue diamond).  A black console window will apppear, and your default browser shortly afterwards.</li>
+        <li>If OpenRefine does not automatically open for you, point your web browser at http://127.0.0.1:3333/ or http://localhost:3333.</li>
+      </ul>
     </div>
     <div class="col-md-4">
-      <h4 id="editor-macosx">Mac OS X</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open nano.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
-      </p>
+      <h4 id="openrefine-mac">Mac OS X</h4>
+      <ul>
+        <li>Open Refine uses the Java Run Environment. To check you have Java installed, open System Preferences and look for a Java icon. If you don't have it, <a href="https://www.java.com/en/download/mac_download.jsp">download</a> and install it.</li>
+        <li>Download the OpenRefine 2.7 Mac Kit from <a href="http://openrefine.org/download.html">http://openrefine.org</a></li>
+        <li>Open the downloaded file and drag the OpenRefine icon to Applications as instructed.</li>
+        <li>Launch OpenRefine from Applications.</li>
+        <li>If you receive a warning about installing untrusted applications: Applications -> Utilities -> Terminal and type the following: <code>spctl --add /Applications/OpenRefine.app</code> and try again.
+	<li>If OpenRefine does not automatically open for you, point your web browser at http://127.0.0.1:3333/ or http://localhost:3333.</li>
+      </ul>
     </div>
     <div class="col-md-4">
-      <h4 id="editor-linux">Linux</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="http://kate-editor.org/">Kate</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
-      </p>
+      <h4 id="openrefine-linux">Linux</h4>
+      <ul>
+        <li>OpenRefine uses the Java Runtime Enviroment. To check if you have Java installed, open a terminal and type <code>java -version</code>.  If you don't have it, the run <code>sudo apt-get install default-jre</code> (Ubuntu) or <code>sudo dnf install java-1.8.0-openjdk</code> (Fedora)</li>
+        <li>Download the OpenRefine 2.7 Linux kit from <a href="http://openrefine.org/download.html">http://openrefine.org</a></li>
+        <li>Unzip the downloaded file into a directory. Name that directory something like "OpenRefine".</li>
+        <li>Go to your newly created OpenRefine directory.</li>
+        <li>Type <code>./refine</code> into the terminal within the OpenRefine directory</li>
+        <li>If OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.</li>
+      </ul>
     </div>
   </div>
-</div> <!-- End of 'editor' section. -->
+</div> <!-- End of 'openrefine' section. -->
 
 <div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
@@ -735,41 +615,36 @@ install (described above).
 </div> --> <!-- End of 'R' section. -->
 
 <div id="sql"> <!-- Start of 'SQLite' section. -->
- <h3>SQLite</h3>
+  <h3>SQLite</h3>
 
   <p>
     SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
+    use a very lightweight database system called SQLite in our lessons.  On its own, it's so light, it doesn't even include a user interface!  So, we use <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a>. 
   </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
       <p>
-        The <a href="{{site.swc_installer}}">Software Carpentry Windows Installer</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
+        Download and install <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.9.1/DB.Browser.for.SQLite-3.9.1-win32.exe">DB Browser for SQLite (Windows)</a>
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="sql-macosx">Mac OS X</h4>
       <p>
-        SQLite comes pre-installed on Mac OS X.
+        Download and install <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.9.1/DB.Browser.for.SQLite-3.9.1v2.dmg">DB Browser for SQLite (Mac)</a>
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="sql-linux">Linux</h4>
       <p>
-        SQLite comes pre-installed on Linux.
+        Download and install <a href="https://github.com/sqlitebrowser/sqlitebrowser/archive/v3.9.1.tar.gz">DB Browser for SQLite (Linux)</a>
       </p>
     </div>
   </div>
 
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!--End of 'SQLite' section. -->
+
+</div> <!-- End of 'SQLite' section. -->
 
 <!--
   Uncomment this section if you are using our virtual machine.
