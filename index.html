@@ -220,13 +220,19 @@ Twitter <a href="http://twitter.com/RR_Oxford">@RR_Oxford</a>.
  </div>
 </div>
 
-  "https://pad.carpentries.org/2019-06-04-edinburgh" 
+ {% comment %}
+  Collaborative Notes
 
-{% if page.etherpad %}
-<p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  If you want to use an Etherpad, go to
+
+      http://pad.software-carpentry.org/YYYY-MM-DD-site
+
+  where 'YYYY-MM-DD-site' is the identifier for your workshop,
+  e.g., '2015-06-10-esu'.
+{% endcomment %}
+{% if page.collaborative_notes %}
+<p id="collaborative_notes">
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
