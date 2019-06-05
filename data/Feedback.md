@@ -33,3 +33,24 @@ CONTRO HOW TO IMPROVE
 *scatterplot still a little bit confused 
 *Pace a little slow
 *Some more info on data Safety on OpenRefine
+
+PYTHON
+
+PRO
+*Really nice Python work
+*Covered a fairly large range of issues for Python, Good pace, Useful to be able to use jupyter and anaconda ratehr than needing to use a comand line
+*Good one to one support, easy to follow
+*Pace was good, very helpful stuff
+*I really appreciate the help provided. I had a problem and they did not stop till they found a solution
+*Very useful
+*better that the issues mean we have each using in our own jupyter notebook, otherwise difficult to get back after class
+
+CONTRO HOW TO IMPROVE
+*would work nicer with live coding instead of walking through
+*Did not go until much detail for absolute beginners, would have been good to know how to export plot
+*Python class went well. It was a bit hard to type and listen to the explanations at the same time but learnt a lot of things
+*Would have lile to have programmed some stats on data e.g. regression
+*Just more time larger course
+*nothing to change. Really helpful step by step
+*Sometimes too quick, missed a couple of things
+*Need a more fundamental introduction to coding etc. I only keep up because I did an R training session last week
