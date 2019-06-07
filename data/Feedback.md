@@ -54,3 +54,24 @@ CONTRO HOW TO IMPROVE
 *nothing to change. Really helpful step by step
 *Sometimes too quick, missed a couple of things
 *Need a more fundamental introduction to coding etc. I only keep up because I did an R training session last week
+
+SQL
+
+PRO
+*SQL session was great. Learnt how to query tables and use aggregations and joins
+*Very informative. Constant good examples lot of student engagement
+*Good examples thank you
+*Excellent work on behalf of the team! this was very interesting and engaging workshop
+*Very useful.I now have a very good idea on where to start with my data
+*Good intro to database managment
+*Well paced, covers good amount of topics
+*Really valuable skills 
+
+CONTRO HOW TO IMPROVE
+*Not easy to see the SQL Queries on the screen when the ppt on. Need a double screen
+*More examples 
+*Only problem it lasted only 2 days and we have to rush over some things. Great amount of material in 2 days
+*Maybe link to good SLQ learning sources
+*More on joining 
+*More challenges
+*Need double screen to have ppt and SQL query together
